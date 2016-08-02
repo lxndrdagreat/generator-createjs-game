@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<head>
+    <title><%= projectName %></title>
+
+    <!-- primary stylesheet -->
+    <link rel="stylesheet" href="css/main.css"/>
+</head>
+<body>
+    <main class="main-container">
+        <canvas id="canvas" width="960" height="720"></canvas>
+    </main>
+    <!-- build:vender -->
+    <script src="vender/jquery/dist/jquery.min.js"></script>
+    <script src="vender/EaselJS/lib/easeljs-0.8.2.min.js"></script>
+    <script src="vender/TweenJS/lib/tweenjs-0.6.2.min.js"></script>
+    <script src="vender/SoundJS/lib/soundjs-0.6.2.min.js"></script>
+    <!-- endbuild -->
+    <!-- build:main -->
+    <script src="js/main.js"></script>
+    <!-- endbuild -->
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            window.game = new GameApp();
+        });
+    </script>
+
+    <footer>
+        <div class="footer-contents">
+            <h1><%= projectName %></h1>
+            <h2>Created by</h2>
+            <ul>
+                <li>You</li>
+                <li>Your Friend</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

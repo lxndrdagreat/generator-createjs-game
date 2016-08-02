@@ -1,0 +1,12 @@
+{
+  "name": "package",
+  "version": "0.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "EaselJS": "easeljs#^0.8.2",
+    "TweenJS": "createjs-tweenjs#^0.6.2",
+    "SoundJS": "createjs-soundjs#^0.6.2",
+    "jquery": "^3.1.0"
+  }
+}
+
