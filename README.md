@@ -2,6 +2,8 @@
 
 > [Yeoman](http://yeoman.io) generator
 
+This is a Yeoman generator for making HTML5 Canvas games using the [CreateJS Suite](http://www.createjs.com/).
+
 It uses [Gulp](http://gulpjs.com/) for task management and [Bower](https://bower.io/)
 for library dependencies.
 
