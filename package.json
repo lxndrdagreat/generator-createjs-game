@@ -20,7 +20,11 @@
     "app"
   ],
   "keywords": [
-    "yeoman-generator"
+    "yeoman-generator",
+    "createjs",
+    "easeljs",
+    "tweenjs",
+    "soundjs"
   ],
   "dependencies": {
     "yeoman-generator": "^0.17.0",
