@@ -1,4 +1,4 @@
-# generator-createjs-game [![Build Status](https://secure.travis-ci.org/lxndrdagreat/generator-createjs-game.png?branch=master)](https://travis-ci.org/lxndrdagreat/generator-createjs-game)
+# generator-createjs-game
 
 > [Yeoman](http://yeoman.io) generator
 
