@@ -36,7 +36,7 @@ var CreatejsGameGenerator = yeoman.generators.Base.extend({
       // this.dest.mkdir('app');
       // this.dest.mkdir('app/templates');
 
-      var fixedName = this.projectName.toLowerCase().replace(' ', '-');
+      var fixedName = this.projectName.toLowerCase().replace(/\s/g, '-');
 
       // this.src.copy('_package.json', 'package.json');
       this.template(
