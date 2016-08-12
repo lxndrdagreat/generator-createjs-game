@@ -106,3 +106,8 @@ jspm_packages
 
 # Bower Vender directory
 src/vender
+
+## PROJECT
+
+.dev-temp
+dist/

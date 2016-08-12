@@ -35,6 +35,28 @@ It will ask you for your project's name. This will be used for the
 `package.json` file's "`name`" property as well as to prefil the title for the
 `index.html` file.
 
+## Developing with the Generator
+
+### Develop Gulp Task
+
+The default Gulp task is the "dev" task. This task outputs to the
+`.dev-temp` directory which is included in by the `.gitignore`.
+
+It also turns on watchers for the JS, CSS, HTML and resources.
+
+The output JavaScript and CSS is not minified in order to make
+development and finding bugs easier.
+
+### Distributing
+
+You can create a release build of your project using "release",
+"dist" or "build".
+
+This will output to the `dist/` folder. The vender files will be
+concatinated into one file called "vender.min.js". The other 
+JavaScript files will be concatinated, minified and uglified into
+"main.min.js".
+
 ## License
 
 MIT
