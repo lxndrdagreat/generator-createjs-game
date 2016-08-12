@@ -13,26 +13,21 @@
   "engines": {
     "node": ">=0.10.0"
   },
-  "scripts": {
-    "test": "mocha"
-  },
   "files": [
     "app"
   ],
   "keywords": [
     "yeoman-generator",
+    "yeoman",
+    "canvas",
+    "game",
     "createjs",
     "easeljs",
     "tweenjs",
     "soundjs"
   ],
   "dependencies": {
-    "yeoman-generator": "^0.17.0",
-    "chalk": "^0.5.0",
-    "yosay": "^0.3.0"
-  },
-  "devDependencies": {
-    "mocha": "*"
+    "yeoman-generator": "^0.17.0"
   },
   "peerDependencies": {
     "yo": ">=1.0.0"
